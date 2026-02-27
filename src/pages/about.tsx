@@ -13,7 +13,7 @@ export default function About() {
       <h2 class="text-2xl">About</h2>
 
       <p class="mt-4">
-        A page all about this website. <span>We love</span>
+        <p>For over a decade, Targeted Web Traffic has been the silent partner behind some of the most successful brands in the Cream City. We don't just "do SEO"—we engineer growth. Our [Milwaukee SEO company services](https://targetedwebtraffic.com/seo-services/milwaukee-seo-company/) are designed to put your brand in front of high-intent customers exactly when they are looking for your products or services.</p>
         <Suspense fallback={<span>...</span>}>
           <span>&nbsp;{name()}!</span>
         </Suspense>
